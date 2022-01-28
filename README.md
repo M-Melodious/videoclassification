@@ -98,11 +98,6 @@ $ bazel-bin/label_image/label_image_py -v path/to/video.mp4
 $ bazel-bin/label_image/label_image_py -i path/to/image.jpg
 ```
 
-Or, with tensorflow python package installed, you can run it like:
-```bash
-$ python3 videoclassification/label_image/label_image.py
-```
-
 And get result similar to this:
 ```
 Class: military uniform Score: 83.4305%
