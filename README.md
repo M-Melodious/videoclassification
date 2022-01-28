@@ -6,7 +6,7 @@ Use Tensforflow frozen graph for video classification
 This example shows how you can load a pre-trained TensorFlow network and use it
 to recognize objects in images/videos in Python/C++.
 
-#TODO: Make changes to C++ to support video classification
+##TODO: Make changes to C++ to support video classification
 
 ## Description
 
@@ -48,6 +48,8 @@ That should build a binary executable that you can then run like this:
 ```bash
 $ bazel-bin/label_image/label_image
 ```
+
+##NOTE: Tensorflow and C++ will not run, as I've removed it from WORKSPACE
 
 This uses the default example image that ships with the framework, and should
 output something similar to this:
@@ -98,7 +100,7 @@ $ bazel-bin/label_image/label_image_py -i path/to/image.jpg
 
 Or, with tensorflow python package installed, you can run it like:
 ```bash
-$ python3 tensorflow/examples/label_image/label_image.py
+$ python3 videoclassification/label_image/label_image.py
 ```
 
 And get result similar to this:
