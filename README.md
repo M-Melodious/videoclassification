@@ -105,5 +105,5 @@ $ python3 videoclassification/label_image/label_image.py
 
 And get result similar to this:
 ```
-military uniform 0.834305
+Class: military uniform Score: 83.4305%
 ```
