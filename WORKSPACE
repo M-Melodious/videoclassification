@@ -6,12 +6,12 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 all_content = """filegroup(name = "all", srcs = glob(["**"]), visibility = ["//visibility:public"])"""
 
-http_archive(
-    name = "opencv",
-    build_file_content = all_content,
-    strip_prefix = "opencv-4.5.5",
-    urls = ["https://github.com/opencv/opencv/archive/refs/tags/4.5.5.zip"],
-)
+#http_archive(
+#    name = "opencv",
+#    build_file_content = all_content,
+#    strip_prefix = "opencv-4.5.5",
+#    urls = ["https://github.com/opencv/opencv/archive/refs/tags/4.5.5.zip"],
+#)
 
 http_archive(
     name = "rules_foreign_cc",
